@@ -1,0 +1,217 @@
+---
+layout: post
+title: ISMIR2020 Review - Papers related to Lyrics Transcription & Alignment
+subtitle: 
+date: 2020-11-5
+author: Emir Demirel
+author-id: QMUL1
+background: /posts/ismir2020/
+--- 
+
+<h3> Here is my take on from ISMIR2020 Conference: </h3> <br />
+
+
+Few weeks ago, I attended the International Society for Music Information Retrieval (ISMIR) 2020 Conference, which was held online in the format of a virtual conference. In this blogpost, I write about few papers from the conference and give a brief summary of what I found interesting related to my research interests, like lyrics transcription and alignment, vocal extraction and singing voice. <br />
+
+<br />
+
+
+
+<h2> Multilingual Lyrics-to-audio Alignment </h2>
+
+Andrea Vaglio, Romain Hennequin, Manuel Moussallam, Gael Richard, Florence d’Alché-Buc  <br />
+
+
+<h3> Summary: </h3> 
+
+
+This paper presents a novel scheme for audio-to-lyrics alignment in a multilingual setting using BiLSTMs trained on CTC loss and phonemes as the intermediate representation for lyrics.  <br />
+
+
+ <h3> Pros:  </h3> 
+
+
+ - One of the first and most successful multilingual lyrics alignment works.  <br />
+
+ - Evaluation and training on public datasets.  <br />
+
+ - New subsets of the DALI dataset are released.  <br />
+
+ - The system works on languages with limited resources.  <br />
+
+
+ <h3> Cons:  </h3> 
+
+
+ - The authors evaluate on a set with automatically aligned lyrics. Even though the authors mentioned in Q&A sessions that they think these annotations are of good quality by inspection, the word boundaries should be manually annotated for evaluation, as the precision of the currently best alignment systems is around 100ms, it would be difficult to judge annotations by inspection.  <br />
+
+<center><figure class="figure">
+  <img src="{{ '/posts/ismir2020/multilingual.png' | relative_url }}" alt="" class="figure-img img-fluid mx-auto d-flex" width="600">
+  <figcaption class="figure-caption" markdown="1" >
+  </figcaption>
+</figure></center>
+
+ <br />
+
+
+<h2>  A Deep Learning Based Analysis-synthesis Framework for Unison Singing </h2>  
+Pritish Chandna, Helena Cuesta, Emilia Gomez <br />
+
+<h3> Summary: </h3> 
+
+
+This study applies an extensive computational analysis on choir recordings from the Soprano-Tenor-Alto-Bass (SATB) approach. Moreover, the authors a novel approach for the retrieval of separate vocal tracks from a mixture of a choir through singing voice synthesis. The authors use singer identity and singer independent linguistic embeddings encoded via neural networks and use this representation for the synthesis. The quality of synthesis is reported through subjective listening tests. Some audio examples are also provided at the following link: https://pc2752.github.io/unison_analysis_synthesis_ examples <br />
+
+<h3>  Pros: </h3> 
+
+ - One of the first and few studies on a research topic that has been rarely tackled upon within MIR community, which is choir singing. <br />
+ - Reproducibility; open source datasets for analysis and evaluation, online demo and code are made publicly available. Something we are used (and appreciate) to see from the works of MTG. <br />
+ - The online audio examples are convincing by inspection. I anticipate that they would function well for further singing analysis. <br />
+
+<h3> Cons: </h3> 
+
+ - I guess objective evaluation metrics are necessary at some point for a more scientific comparison with already existing or future systems. <br />
+
+<center><figure class="figure">
+  <img src="{{ '/posts/ismir2020/pritish.png' | relative_url }}" alt="" class="figure-img img-fluid mx-auto d-flex" width="600">
+  <figcaption class="figure-caption" markdown="1" >
+  </figcaption>
+</figure></center>
+
+ <br />
+
+
+<h2>  Content Based Singing Voice Source Separation via Strong Conditioning Using Aligned Phonemes  </h2> <br />
+
+<h3> Summary: </h3> 
+
+
+Here is another paper that applies text informed music source separation. Instead of following the naive approach of feature concatenation, the authors have tried multiple ways to incorporate the phonetic information from input lyrics. The words in lyrics are decomposed into their phonetic representations vi a pronunciation dictionary. For each word aligned with the audio signal, a global phoneme activation matrix is created on the word-level (Figure). For conditioning the network, this phoneme matrix is embedded to the 'Feature-wise Linear Modulation' layers (ref) in the C-U-Net architecture the authors employ. Even though the improvement is marginal compared to unconditioned network, the idea is novel and promising to be investigated more extensively. <br />
+
+<h3> Pros: </h3> 
+
+ - A new multitrack dataset for music source separation with aligned lyrics. We always love new annotated data! <br />
+ - A novel approach to condition text for source separation. There is definitely room for improvement. <br />
+ - The paper is presented with high quality. <br />
+
+
+<h3> Cons: </h3> 
+
+ - Even though the authors report statistical significance test, the improvement is still marginal. <br />
+
+ - There should be better ways to incorporate phonetic information. In this paper's approach, the phonemes are not extracted on the frame-level, but on the word level. Further improvement might be possible if phonemes were aligned with the audio signal on frame-level. <br />
+
+ - Also, the phonetic information is represented as word-level global binary activation matrices. Perhaps it would lead to better results if phonemtic information was encoded as a probability distribution. This would circumvent the need of lyrics at the input for separation. <br />
+
+<center><figure class="figure">
+  <img src="{{ '/posts/ismir2020/phoneme_ss.png' | relative_url }}" alt="" class="figure-img img-fluid mx-auto d-flex" width="400">
+  <figcaption class="figure-caption" markdown="1" >
+  </figcaption>
+</figure></center>
+
+ <br />
+
+
+<h2> Exploring Aligned Lyrics-informed Singing Voice Separation </h2> <br />
+
+Chang-Bin Jeon, Hyeong-Seok Choi, Kyogu Lee <br />
+
+
+<h3> Summary: </h3> 
+
+
+This paper is proposes to use phonetic information for source separation and investigates if it does improve the performance. It has lots of similarities with the work in (ref Killian). The phonetic features are extracted from lyrics text only. <br />
+
+
+<h3> Pros: </h3> 
+
+ - The authors propose two methods to incorporate phonetic information vocal source seperation: Local conditioning and feature concatenation. <br />
+
+ - I do think incorporating phonetic information for source separation should work and is a nice idea. <br />
+
+
+<h3> Cons: </h3> 
+
+
+ - Private dataset! I know it is extremely difficult to find well-curated public datasets for MIR tasks, however, there are some for source separation that people have been using. I would expect to see at least one public dataset in evaluation. (Notice to peer-reviewers!)  <br />
+
+ - The work is not extremely different that Killian's work in (ref). Even though consistent improvement is observed, it is not significant. Perhaps there are other ways to leverage phonetic information.  <br />
+
+<center><figure class="figure">
+  <img src="{{ '/posts/ismir2020/aligned_korean.png' | relative_url }}" alt="" class="figure-img img-fluid mx-auto d-flex" width="400">
+  <figcaption class="figure-caption" markdown="1" >
+  </figcaption>
+</figure></center>
+
+ <br />
+
+
+<h2> Automatic Rank-ordering of Singing Vocals with Twin-neural Network </h2> <br />
+
+Chitralekha Gupta, Lin Huang, Haizhou Li  <br />
+
+
+<h3> Summary:  </h3> 
+
+
+In this paper, the authors present a purely engineered way of measuring the singing quality using music informed features and a Siamese network to which learns to choose the better singer given two performances.   <br />
+
+
+</h3> Pros:  </h3> 
+
+
+ - A nice Deep Learning based method for evaluating the singing quality.  <br />
+
+ - The authors use public datasets.  <br />
+
+
+<h3> Cons:  </h3> 
+
+
+ - The authors tackle a problem that has been widely discussed by musicologists: "What are the objective measures for singing quality?". Though there has not been a common consensus among singing voice researchers, educators and performers, the authors claim that there is, referring to only two recent MIR papers. I think some of their claims are too bold to be scientific. ISMIR reviewers should also think musicologically as much as they consider the details from an engineering perspective. <br />
+
+
+ - For the ground truth labels of their first dataset, the authors use crowd-sourced singing quality rankings of the users of a karaoke app (Smule). However, we do not necessarily know that the people involved in voting have enough expertise in singing to be able to judge other performers. I guess the term 'ground truth' should be revised. <br />
+
+ <br />
+
+
+
+</h2> A Chorus-section Detection Method for Lyrics Text </h2> <br />
+Kento Watanabe, Masataka Goto <br />
+
+<h3> Summary : </h3> 
+
+This study proposes a sequence labelling method to be used to detect the chorus sections of lyrics of songs retrieved using only the text as input. The authors train a BiLSTM network on a large but private dataset with semi-automatically generated chorus-line annotations. <br />
+
+
+<center><figure class="figure">
+  <img src="{{ '/posts/ismir2020/choruslyrics.png' | relative_url }}" alt="" class="figure-img img-fluid mx-auto d-flex" width="400">
+  <figcaption class="figure-caption" markdown="1" >
+  </figcaption>
+</figure></center>
+
+<h3> Pros : </h3> 
+
+ - This the first work on an important computational problem within MIR. Such robust, generalisable and scalable model would have a range of applications. <br />
+ - It shows an example case of NLP application in MIR <br />
+ - There are several open source tools revealed in the paper <br />
+ - The list of features used for this task makes almost complete sense and combining them for sequence labelling is novel. <br />
+
+<h3> Cons: </h3> 
+ 
+ - Both training and evaluation data are private and not accessible by other researchers. The scientific approach of 21st century requires 'open science' for fairness, transparency and reproducibility of published results. <br />
+
+ - According to the authors BiLSTMs against MLPs or heuristic-based models is beneficial for sequence prediction, which they state as a contribution of the paper. Well, we kind of knew this already which was shown in several dozens of peer-review papers. <br />
+
+ - Among the features used for the task, I only did not get the motivation of using 'lyrics line syllable count'. Also the choice of some features could be better justified. <br />
+
+
+ <br />
+
+(Notice : The figures in this post are taken from the related papers including their captions to make them more explanatory. Please don't pay attention to the figure number - this is not in order)
+ <br />
+
+
+
+
