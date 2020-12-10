@@ -6,7 +6,7 @@ excerpt: 'ISMIR 2020 paper on drum pattern analysis'
 date: 2020-11-06
 author: Alejandro Delgado
 author-id: alejandro
-background: /posts/abbey-road/head.jpg
+background: /posts/groove-toolbox/head.jpg
 ---
 
 Here we take a look at a lovely [paper](https://program.ismir2020.net/poster_2-13.html) by Fred Bruford et al. that presents and evaluates a set of engineered features for drum pattern analysis in the symbolic domain[^1].
@@ -20,7 +20,7 @@ The Groove Toolbox is a comprehensive framework for modelling perceptual qualiti
 The authors decided to implement those pre-existing algorithms that were proven to be perceptually relevant and that could handle different onset velocities. They also introduced four microtiming features and two similarity models. These similarity models are the *fuzzy hamming distance*, a variant of the hamming distance that accounts for minimal onset deviations, and a new *structural similarity metric* based on a transformation model[^2] that removes ghost notes and ornamentations to facilitate modelling.
 
 <figure class="figure w-100">
-  <img src="{{ '/posts/abbey-road/table1.png' | relative_url }}" alt="Table." class="figure-img img-fluid mx-auto d-flex">
+  <img src="{{ '/posts/groove-toolbox/table1.png' | relative_url }}" alt="List of features and similarity measures" class="figure-img img-fluid mx-auto d-flex">
   <figcaption class="figure-caption text-center" markdown="1">
   List of features and similarity measures currently implemented in the GrooveToolbox. New features are in bold.
   </figcaption>
@@ -33,7 +33,7 @@ The evaluation was carried out using a study derived from a listener study on dr
 After the correlation study, the authors found that drum loop similarity models built upon similarity metrics (baseline) performed best when combined with rhythm and microtiming features. Also, the new structural similarity metric alone (*r=0.65, p=6.1e-11*) performs better than the standard Hamming distance (*r=0.59, p=9.7e-9*). The fuzzy hamming distance, on the other hand, did not perform better than the standard one (*r=0.56, p=6.1e-8*).
 
 <figure class="figure w-100">
-  <img src="{{ '/posts/abbey-road/figure1.png' | relative_url }}" alt="Figure." class="figure-img img-fluid mx-auto d-flex">
+  <img src="{{ '/posts/groove-toolbox/figure1.png' | relative_url }}" alt="Model performance" class="figure-img img-fluid mx-auto d-flex">
   <figcaption class="figure-caption text-center" markdown="1">
   Model performance as R-squared value for rhythm R feature set, microtiming MT feature set, structural similarity feature SS and all three combined for each participant. The best performance is found when the three are combined.
   </figcaption>
