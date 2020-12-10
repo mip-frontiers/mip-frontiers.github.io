@@ -1,6 +1,6 @@
 groups:
   - name: Univesitat Pompeu Fabra
-    logo: '<div><a href="https://www.upf.edu/web/mtg"><img src="/img/logos/upf-mtg.png" alt="Music Technology Group (MTG), Universitat Pompeu Fabra (UPF)" class="img-fluid" style="max-height: 35px;"></a></div>'
+    logo: '<div><a href="https://www.upf.edu/web/mtg"><img src="/img/logos/upf.svg" alt="Music Technology Group (MTG), Universitat Pompeu Fabra (UPF)" class="img-fluid" style="max-height: 45px;"></a></div>'
     esrs:
     - name: Philip Tovstogan
       photo: upf1-philip.jpg
@@ -158,12 +158,16 @@ groups:
         id: carlos
         code: QMUL2
 
-        topic: Domain Transfer for Automatic Instrument Recognition and Separation to Aid Polyphonic Transcription
+        topic: Improving Polyphonic Transcription through Instrument Recognition and Source Separation
         supervisors:
+          - name: Emmanouil Benetos
+            web: https://www.eecs.qmul.ac.uk/~emmanouilb/        
           - name: Simon Dixon
-            web: http://eecs.qmul.ac.uk/profiles/dixonsimon.html
+            web: http://www.eecs.qmul.ac.uk/~simond/
 
         email: c.p.viannalordelo@qmul.ac.uk
+        github: cpvlordelo
+        linkedin: lordelo-carlos
 
       - name: Ruchit Agrawal
         photo: qmul3-ruchit.jpg
@@ -183,7 +187,7 @@ groups:
         id: alejandro
         code: QMUL4
 
-        topic: Fine Grain Time Resolution Audio Features Using Autoregressive Analysis and Representation Learning
+        topic: Data-Driven Approaches for Query by Vocal Percussion
         supervisors:
           - name: Mark Sandler
             web: http://www.eecs.qmul.ac.uk/profiles/sandlermark.html

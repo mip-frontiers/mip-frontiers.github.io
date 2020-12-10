@@ -1,23 +1,15 @@
 # please follow the citation style!
-# all fields except url are required
+# all fields except url and video are required
 # esr field can be either string or an array of strings for collaborations (e.g. furkan or [furkan, philip])
 # add links to people page for esrs involved (e.g <a href="/people#furkan">Yesiler F.</a>)
 
 
-- title: 'Automatic Lyrics Transcription using Dilated Convolutional Neural Networks with Self-Attention'
-  esr: emir 
-  authors: <a href="/people#emir">Demirel E.</a> Ahlback S. and Dixon S.
-  in: International Joint Conference on Neural Networks (IJCNN 2020), Edinburgh, UK
-  date: 2020-07-23
-  url: https://arxiv.org/abs/2007.06486
-
-- title: 'MIREX 2019-AUDIO-TO-LYRICS ALIGNMENT CHALLENGE 2019'
+- title: 'MIREX 2019 - Audio-to-Lyrics Alignment Challenge 2019'
   esr: emir 
   authors: <a href="/people#emir">Demirel E.</a>
-  in:  20th International Society for Music Information Retrieval Conference (ISMIR 2019), Delft, The Netherlands
+  in: 20th International Society for Music Information Retrieval Conference (ISMIR 2019), Delft, The Netherlands
   date: 2019-11-05
   url: https://www.music-ir.org/mirex/abstracts/2019/ED1.pdf
-
 
 - title: 'The MTG-Jamendo Dataset for Automatic Music Tagging'
   esr: philip 
@@ -25,6 +17,7 @@
   in: Machine Learning for Music Discovery Workshop (ML4MD), 36th International Conference on Machine Learning (ICML 2019), Long Beach, California, USA
   date: 2019-06-15
   url: http://hdl.handle.net/10230/42015
+  github: MTG/mtg-jamendo-dataset
 
 - title: 'Da-TACOS: A Dataset for Cover Song Identification and Understanding'
   esr: [furkan, philip]
@@ -32,14 +25,16 @@
   in: 20th International Society for Music Information Retrieval Conference (ISMIR 2019), Delft, The Netherlands
   date: 2019-11-02
   url: http://doi.org/10.5281/zenodo.3527810
+  github: MTG/da-tacos
 
 - title: 'A New Dataset for Amateur Vocal Percussion Analysis'
   esr: alejandro
   authors: <a href="/people#alejandro">Delgado A.</a>, McDonald S., Xu N., and Sandler M.
   in: Audio Mostly 2019, Nottingham, UK
   date: 2019-09-20
+  url: https://arxiv.org/abs/2009.11737
 
-- title: Automatic chord-scale recognition using harmonic pitch class profiles
+- title: Automatic Chord-Scale Recognition Using Harmonic Pitch Class Profiles
   esr: emir
   authors: <a href="/people#emir">Demirel E.</a>, Bozkurt B., and Serra X.
   in: 16th Sound & Music Computing Conference (SMC 2019), Málaga, Spain
@@ -65,11 +60,13 @@
   in: 20th International Society for Music Information Retrieval Conference (ISMIR 2019), Delft, The Netherlands
   date: 2019-11-02
   url: https://arxiv.org/abs/1907.02265
+  github: cifkao/ismir2019-music-style-translation
+  video: https://collegerama.tudelft.nl/Mediasite/Showcase/ismir2019/Presentation/f4dd611fbfa64c6da166efadce72a2611d
 
 - title: Investigating Kernel Shapes and Skip Connections for Deep Learning-Based Harmonic-Percussive Separation
   esr: carlos
   authors: <a href="/people#carlos">Lordelo C.</a>, Benetos E., Dixon S., and Ahlbäck S.
-  in: IEEE Workshop on Applications of Signal Processing to Audio and Acoustics, (WASPAA 2019), New Paltz, NY, USA
+  in: IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA 2019), New Paltz, NY, USA
   date: 2019-10-20
   url: https://arxiv.org/abs/1905.01899
   
@@ -94,7 +91,7 @@
   date: 2019-09-04
   url: http://hdl.handle.net/10230/42218
 
-- title: Learning Soft-Attention Models for Tempo-invariant Audio-Sheet Music Retrieval
+- title: Learning Soft-Attention Models for Tempo-Invariant Audio-Sheet Music Retrieval
   esr: luis
   authors: Balke S., Dorfer M., <a href="/people#luis">Carvalho L.</a>, Arzt A., and Widmer G.
   in: 20th International Society for Music Information Retrieval Conference (ISMIR 2019), Delft, The Netherlands
@@ -118,21 +115,44 @@
 - title: Neural Percussive Synthesis Parameterised by High-Level Timbral Features 
   esr: antonio 
   authors: <a href="/people#antonio">Ramires A.</a>, Chandna P., Favory X., Gómez E., and Serra X.
-  in:  ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Barcelona, Spain
+  in: 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2020), Barcelona, Spain
   date: 2020-05-08
   url: https://ieeexplore.ieee.org/document/9053128
+  video: https://youtu.be/NeB-jTI9GzI
   
 - title: Joint Phoneme Alignment and Text-Informed Speech Separation on Highly Corrupted Speech
   esr: kilian
   authors: <a href="/people#kilian">Schulze-Forster K.</a>, Doire C., Richard G., and Badeau R.
-  in: ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Barcelona, Spain
+  in: 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2020), Barcelona, Spain
   date: 2020-05-07
   url: https://hal.telecom-paris.fr/hal-02457075
+  
+- title: Audio-Based Auto-Tagging with Contextual Tags for Music
+  esr: karim
+  authors: <a href="/people#karim">Ibrahim K.</a>, Royo-letelier J., Eepure E., Peeters G., and Richard G.
+  in: 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2020), Barcelona, Spain
+  date: 2020-05-07
+  url: https://hal.archives-ouvertes.fr/hal-02481374
+  video: https://youtu.be/mxhO5PjW58M
+
+- title: A Study on the Transferability of Adversarial Attacks in Sound Event Classification
+  esr: vinod
+  authors: <a href="/people#vinod">Subramanian V.</a>, Pankajakshan A., Benetos E., Xu N., McDonald S., and Sandler M.
+  in: 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2020), Barcelona, Spain
+  date: 2020-05-05
+  url: https://ieeexplore.ieee.org/abstract/document/9054445
+  
+- title: 'Spectral and Temporal Timbral Cues of Vocal Imitations of Drum Sounds'
+  esr: alejandro
+  authors: <a href="/people#alejandro">Delgado A.</a>, Saitis C., and Sandler M.
+  in: Proceedings of the 2nd International Conference on Timbre (online)
+  date: 2020-09-04
+  url: http://timbre2020.mus.auth.gr/assets/papers/25.Delgado.pdf
 
 - title: 'Real-Time Visualisation of Fugue Played by a String Quartet'
   esr: charles 
   authors: Lartillot O., Cancino-Chacón C., and <a href="/people#charles">Brazier C.</a>.
-  in:  17th Sound & Music Computing Conference (SMC 2020), Torino, Italy
+  in: 17th Sound & Music Computing Conference (SMC 2020), Torino, Italy
   date: 2020-06-24
   url: https://arxiv.org/abs/2006.10168
 
@@ -143,12 +163,29 @@
   date: 2020-06-26
   url: https://arxiv.org/abs/2006.11033
 
+- title: Confidence-based Weighted Loss for Multi-Label Classification with Missing Labels
+  esr: karim
+  authors: <a href="/people#karim">Ibrahim K.</a>, Eepure E., Peeters G., and Richard G.
+  in: 2020 International Conference on Multimedia Retrieval (ICMR 2020), Dublin, Ireland
+  date: 2020-06-08
+  url: https://hal.archives-ouvertes.fr/hal-02547012
+  video: https://youtu.be/GBWPYo5xbp8
+  github: KarimMibrahim/Sample-level-weighted-loss
+  
 - title: Web Interface for Exploration of Latent and Tag Spaces in Music Auto-Tagging
   esr: philip
   authors: <a href="/people#philip">Tovstogan P.</a>, Serra X., and Bogdanov D.
   in: Machine Learning for Media Discovery Workshop (ML4MD), 37th International Conference on Machine Learning (ICML 2020), Vienna, Austria
   date: 2020-07-18
   url: http://hdl.handle.net/10230/45186
+  github: MTG/music-explore
+
+- title: 'Automatic Lyrics Transcription using Dilated Convolutional Neural Networks with Self-Attention'
+  esr: emir 
+  authors: <a href="/people#emir">Demirel E.</a> Ahlback S., and Dixon S.
+  in:  2020 International Joint Conference on Neural Networks (IJCNN 2020), Edinburgh, UK
+  date: 2020-07-23
+  url: https://arxiv.org/abs/2007.06486
   
 - title: 'Groove2Groove: One-Shot Music Style Transfer with Supervision from Synthetic Data'
   esr: ondrej
@@ -156,10 +193,47 @@
   in: IEEE/ACM Transactions on Audio, Speech, and Language Processing
   date: 2020-08-26
   url: https://hal.archives-ouvertes.fr/hal-02923548
+  github: cifkao/groove2groove
+  
+- title: 'Should We Consider the Users in Contextual Music Auto-Tagging Models?'
+  esr: karim
+  authors: <a href="/people#karim">Ibrahim K.</a>, Eepure E., Peeters G., and Richard G.
+  in: 21th International Society for Music Information Retrieval Conference (ISMIR 2020), Montreal, Canada
+  date: 2020-10-12
+  url: https://hal.archives-ouvertes.fr/hal-02934433
+  video: https://youtu.be/Hn55VTZ795M
+  github: KarimMibrahim/user-aware-music-autotagging
 
 - title: 'Comparing Representations for Audio Synthesis Using Generative Adversarial Networks'
   esr: javier 
   authors: <a href="/people#javier">Nistal J.</a>, Lattner S., and Richard G.
-  in: Proc. of the 28th European Signal Processing Conference (EUSIPCO2020), Amsterdam, NL
+  in: 28th European Signal Processing Conference (EUSIPCO 2020), Amsterdam, The Netherlands
   date: 2021-01-18
   url: https://arxiv.org/abs/2006.09266
+
+- title: 'Addressing the Recitative Problem in Real-Time Opera Tracking'
+  esr: charles 
+  authors: <a href="/people#charles">Brazier C.</a>, and Widmer G.
+  in: 25th Frontiers of Research in Speech and Music (FRSM 2020), Silchar, India
+  date: 2020-10-08
+  url: https://arxiv.org/abs/2010.11013
+
+- title: 'Memory Controlled Sequential Self Attention for Sound Recognition'
+  esr: vinod
+  authors: Pankajakshan A., Bear H., <a href="/people#vinod">Subramanian V.</a> and Benetos E.
+  in: Interspeech 2020
+  date: 2020-10-25
+  url: https://arxiv.org/abs/2005.06650
+
+- title: 'Learning Frame Similarity using Siamese networks for Audio-to-Score Alignment'
+  esr: ruchit
+  authors: <a href="/people#ruchit">Agrawal R.</a>, and Dixon S.
+  in: 28th European Signal Processing Conference (EUSIPCO 2020), Amsterdam, The Netherlands
+  date: 2021-01-18
+  url: http://www.eecs.qmul.ac.uk/~simond/pub/2020/AgrawalDixon-EUSIPCO2020.pdf
+  
+- title: 'Learning Models for Query by Vocal Percussion: A Comparative Study'
+  esr: alejandro
+  authors: <a href="/people#alejandro">Delgado A.</a>, McDonald S., Xu N., Saitis C., and Sandler M.,
+  in: Proceedings of the 46th International Computer Music Conference, ICMC, Santiago de Chile, Chile.
+  date: 2021-07-05
