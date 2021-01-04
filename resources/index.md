@@ -28,3 +28,4 @@ description: Materials, presentations and tutorials
 - [The MTG-Jamendo Dataset for Automatic Music Tagging](https://mtg.github.io/mtg-jamendo-dataset/){:target="_blank"} by [Philip Tovstogan](/people#philip) et al.
 - [Groove2Groove MIDI Dataset: synthetic accompaniments in 3,000 styles](http://doi.org/10.5281/zenodo.3958000){:target="_blank"} by [Ondřej Cífka](/people#ondrej) et al.
 - [User-aware music auto-tagging with contextual tags](https://doi.org/10.5281/zenodo.3961560){:target="_blank"} by [Karim M. Ibrahim](/people#karim) et al.
+- [Tap & Fiddle: a Dataset with Scandinavian Fiddle Tunes with Accompanying Foot-Tapping](https://doi.org/10.5281/zenodo.4308731){:target="_blank"} by [Carlos Lordelo](/people#carlos) et al.
