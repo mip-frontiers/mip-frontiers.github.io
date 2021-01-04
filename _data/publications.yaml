@@ -237,3 +237,17 @@
   authors: <a href="/people#alejandro">Delgado A.</a>, McDonald S., Xu N., Saitis C., and Sandler M.,
   in: Proceedings of the 46th International Computer Music Conference, ICMC, Santiago de Chile, Chile.
   date: 2021-07-05
+
+- title: Tap & Fiddle:a Dataset with Scandinavian Fiddle Tunes with Accompanying Foot-Tapping
+  esr: carlos
+  authors: <a href="/people#carlos">Lordelo C.</a>, Ahlbäck S., Benetos E., Dixon S. and Ohlsson P.
+  in: Zenodo (2020) 
+  date: 2020-12-07
+  url: http://doi.org/10.5281/zenodo.4308731
+
+- title: Adversarial Unsupervised Domain Adaptation for Harmonic-Percussive Source Separation
+  esr: carlos
+  authors: <a href="/people#carlos">Lordelo C.</a>, Benetos E., Dixon S., Ahlbäck S. and Ohlsson P.
+  in: IEEE Signal Processing Letters (Early Access)
+  date: 2020-12-18
+  url: https://ieeexplore.ieee.org/document/9298783
