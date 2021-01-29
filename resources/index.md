@@ -8,9 +8,10 @@ description: Materials, presentations and tutorials
 
 # Past Events
 
-- [First MIP-Frontiers Workshop 2020](/resources/mip-frontiers-workshop), April 30, 2020
-- [Summer School 2019](/resources/summer-school), Universitat Pompeu Fabra, Barcelona, May 20-24, 2019
-- [First Training Week 2018](/resources/first-training-week), Télécom Paris, Paris, September 20-28, 2018
+- [Third Training Week](/resources/third-training-week), Online, November 2020 – May 2021
+- [First MIP-Frontiers Workshop](/resources/mip-frontiers-workshop), April 30, 2020
+- [Summer School](/resources/summer-school), Universitat Pompeu Fabra, Barcelona, May 20-24, 2019
+- [First Training Week](/resources/first-training-week), Télécom Paris, Paris, September 20-28, 2018
 
 # Public Deliverables
 
