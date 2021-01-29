@@ -15,7 +15,7 @@ Due to the COVID19 pandemic travel restrictions, the training was changed to an 
 
 - _Developing Impact & Public Engagement in the MIP-Frontiers project_ <br> Mark Sandler (QMUL) <br> [**Slides**](/resources/third-training-week/impact.pdf)
 
-### Industry careers (January 13th 2021)
+### Industry Careers (January 13th 2021)
 
 - _MIR in the industry: What's the difference really_  <br> Michael Stein (Native Instruments) <br> [**Slides**](/resources/third-training-week/whats-the-difference-really-working-in-mir.pdf)
 - _Panel session + Q&A_ <br> Manuel Moussallam (Deezer), Angus Hewlett (Roli), Michael Stein (Native Instruments)
