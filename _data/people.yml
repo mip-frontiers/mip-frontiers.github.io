@@ -174,7 +174,7 @@ groups:
         id: ruchit
         code: QMUL3
 
-        topic: Adaptive Semi-Supervised Music Alignment
+        topic: Adaptive Semi-Supervised Audio Alignment
         supervisors:
           - name: Simon Dixon
             web: http://eecs.qmul.ac.uk/profiles/dixonsimon.html
