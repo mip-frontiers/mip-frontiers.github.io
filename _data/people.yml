@@ -173,6 +173,7 @@ groups:
         photo: qmul3-ruchit.jpg
         id: ruchit
         code: QMUL3
+        web: https://rragrawal.github.io
 
         topic: Adaptive Semi-Supervised Audio Alignment
         supervisors:
