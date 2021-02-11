@@ -244,3 +244,10 @@
   in: IEEE Signal Processing Letters (Early Access)
   date: 2020-12-18
   url: https://ieeexplore.ieee.org/document/9298783
+
+- title: Self-Supervised VQ-VAE for One-Shot Music Style Transfer
+  esr: ondrej
+  authors: <a href="/people#ondrej">Cífka O.</a>, Ozerov A., Şimşekli U., and Richard G.
+  in: 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2021), Toronto, Canada
+  date: 2021-06-06
+  url: https://hal.archives-ouvertes.fr/hal-03132940
