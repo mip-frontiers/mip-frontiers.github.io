@@ -23,8 +23,8 @@ Due to the COVID19 pandemic travel restrictions, the training was changed to an 
 ### IP and Commercialization (January 27th 2021)
 
 - _IP Rights for MIR Software_ <br> Paul Weber (Native Instruments) <br> [**Slides**](/resources/third-training-week/ip-rights-for-mir-software.pdf)
-- _How to Rurn a PhD into a Product_ <br> Sven Ahlbäck (DoReMIR) <br> [**Slides**](/resources/third-training-week/from-phd-to-product.pdf)
+- _How to Turn a PhD into a Product_ <br> Sven Ahlbäck (DoReMIR) <br> [**Slides**](/resources/third-training-week/from-phd-to-product.pdf)
 
-## Academic Careers (February 17 2021)
+## Academic Careers (February 17th 2021)
 
 - _How to Develop an Academic Career in Music Information Research_ <br> Xavier Serra (Universitat Pompeu Fabra) <br> [**Slides**](/resources/third-training-week/academic-career-mir.pdf)
