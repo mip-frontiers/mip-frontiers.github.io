@@ -252,3 +252,20 @@
   date: 2021-06-06
   url: https://arxiv.org/abs/2102.05749
   github: https://github.com/cifkao/ss-vq-vae
+  
+  
+- title: A Recursive Search Method for Lyrics Alignment
+  esr: emir
+  authors: <a href="/people#ondrej">Demirel E.</a Ahlback S., and Dixon S.
+  in: 20th International Society for Music Information Retrieval Conference (ISMIR 2020), Toronto, Canada
+  date: 2020-10-20
+  url: https://www.music-ir.org/mirex/abstracts/2020/DDA3.pdf
+  github: https://github.com/emirdemirel/ASA_audio2lyrics
+  
+  - title: Low Resource Audio-to-Lyrics Alignment From Polyphonic Music Recordings
+  esr: emir
+  authors: <a href="/people#ondrej">Demirel E.</a Ahlback S., and Dixon S.
+  in: 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2021), Toronto, Canada
+  date: 2021-06-06
+  url: https://arxiv.org/abs/2102.09202
+  github: https://github.com/emirdemirel/ASA_audio2lyrics
