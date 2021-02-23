@@ -261,7 +261,7 @@
   url: https://www.music-ir.org/mirex/abstracts/2020/DDA3.pdf
   github: https://github.com/emirdemirel/ASA_audio2lyrics
   
-  - title: Low Resource Audio-to-Lyrics Alignment From Polyphonic Music Recordings
+- title: Low Resource Audio-to-Lyrics Alignment From Polyphonic Music Recordings
   esr: emir
   authors: <a href="/people#emir">Demirel E.</a> Ahlback S., and Dixon S.
   in: 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2021), Toronto, Canada
